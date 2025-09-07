@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "A responsive personal portfolio built with HTML, CSS, JS.",
+    "image": "assets/project1.jpg",
+    "link": "https://example.com",
+    "category": "web"
+  },
+  {
+    "title": "E-commerce App",
+    "description": "An online shopping app with cart functionality.",
+    "image": "assets/project2.jpg",
+    "link": "https://example.com",
+    "category": "app"
+  },
+  {
+    "title": "UI Design Mockup",
+    "description": "Modern UI/UX design using Figma.",
+    "image": "assets/project3.jpg",
+    "link": "https://example.com",
+    "category": "design"
+  },
+  {
+    "title": "Blog Platform",
+    "description": "A blogging platform with user authentication.",
+    "image": "https://picsum.photos/id/237/400/300",
+    "link": "https://example.com",
+    "category": "web"
+  },
+  {
+    "title": "Weather App",
+    "description": "A real-time weather forecast app.",
+    "image": "https://picsum.photos/seed/picsum/400/300",
+    "link": "https://example.com",
+    "category": "app"
+  },
+  {
+    "title": "Creative Landing Page",
+    "description": "A creative marketing landing page design.",
+    "image": "https://picsum.photos/400/300?grayscale",
+    "link": "https://example.com",
+    "category": "design"
+  }
+]

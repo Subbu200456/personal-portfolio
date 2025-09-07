@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subbu | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Dark Mode Toggle -->
+  <button id="dark-toggle">🌙</button>
+
+  <!-- Hero Section -->
+  <header id="hero">
+    <div class="hero-content">
+      <h1>Hello, I’m <span>Subbu</span></h1>
+      <p>A passionate web developer skilled in building modern and responsive websites.</p>
+      <a href="assets/resume.pdf" download class="btn">Download Resume</a>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/" target="_blank">Twitter</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/profile.jpg" alt="Subbu's Photo">
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a full-stack developer who loves creating beautiful and functional websites. 
+       Skilled in HTML, CSS, JavaScript, and modern frameworks like React.</p>
+    <div class="about-cards">
+      <div class="card"><h3>Education</h3><p>B.Sc. in Computer Science</p></div>
+      <div class="card"><h3>Experience</h3><p>2+ Years in Web Development</p></div>
+      <div class="card"><h3>Goals</h3><p>To work in top tech companies 🚀</p></div>
+      <div class="card"><h3>Hobbies</h3><p>Coding, Music, Blogging</p></div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-bar"><p>HTML</p><div class="bar"><span style="width: 95%"></span></div></div>
+    <div class="skill-bar"><p>CSS</p><div class="bar"><span style="width: 90%"></span></div></div>
+    <div class="skill-bar"><p>JavaScript</p><div class="bar"><span style="width: 85%"></span></div></div>
+    <div class="skill-bar"><p>React</p><div class="bar"><span style="width: 80%"></span></div></div>
+    <div class="skill-bar"><p>Node.js</p><div class="bar"><span style="width: 75%"></span></div></div>
+    <div class="skill-bar"><p>Python</p><div class="bar"><span style="width: 70%"></span></div></div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="web">Web</button>
+      <button data-filter="app">App</button>
+      <button data-filter="design">Design</button>
+    </div>
+    <div id="projects-container"></div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul class="timeline">
+      <li><span>2024-Present</span> Frontend Developer at XYZ Company</li>
+      <li><span>2022-2024</span> Internship at ABC Solutions</li>
+    </ul>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Certified React Developer</li>
+      <li>Full-Stack Web Development Bootcamp</li>
+      <li>Python for Data Science</li>
+    </ul>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Winner of Hackathon 2024 🏆</li>
+      <li>Open Source Contributor</li>
+      <li>Top Performer Award at XYZ Company</li>
+    </ul>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Subbu is a highly talented developer who delivers projects on time."</p>
+      <h4>- Mentor</h4>
+    </div>
+    <div class="testimonial">
+      <p>"Working with Subbu was an amazing experience. Highly recommended!"</p>
+      <h4>- Client</h4>
+    </div>
+  </section>
+
+  <!-- Blog Section -->
+  <section id="blog">
+    <h2>Latest Blog Posts</h2>
+    <div class="blog-container">
+      <article>
+        <h3>5 Tips to Improve Your Web Development Skills</h3>
+        <p>Learn practical tips to enhance your coding journey...</p>
+        <a href="#">Read More</a>
+      </article>
+      <article>
+        <h3>Why React is a Game Changer</h3>
+        <p>A breakdown of why React is so popular in modern web apps...</p>
+        <a href="#">Read More</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Subbu | All rights reserved.</p>
+  </footer>
+</body>
+</html>
